@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    user-select: none;
+    font-family: calibri;
+}
+
+body{
+    background-color: #323a42; 
+}
+
+::selection{
+    color: white;
+    background-color: #d33639;
+}
+
+#main-div{
+    border: 1px solid gray;
+    margin-top: 60px;
+    height: 100%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+#main-div-color{
+    background-color: #3b5998;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#main-div-color-p{
+    color: white;
+    font-size: 28px;
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 30px; 
+    margin-bottom: 14px;
+    user-select: text;
+}
+
+#img{
+    height: 58px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+#p-1{
+    color: white;
+    font-size: 20px;
+    user-select: text;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#p-2{
+    color: white;
+    font-size: 20px;
+    user-select: text;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#p-3{
+    color: white;
+    font-size: 20px;
+    user-select: text;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#hr{
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+
+#btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 220px;
+    height: 50px;
+    border: 0px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-size: 26px;
+    background: linear-gradient(135deg, #9b27ca 0%, #9927cf 0%, #d33639 100%, #f92121 100%);
+    padding-bottom: 4px;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+#btn:hover{
+    filter: saturate(2);
+}
+
+#btn:active{
+    transform: translateY(2px);
+}
+
+#iframe{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
